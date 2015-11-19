@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+	<head>
+		<meta charset="utf-8" />
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	
+		<title></title>
+		
+		<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    	<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    	<link href="bower_components/toastr/toastr.css" rel="stylesheet" />
+		
+		<link href="content/customtheme.css" rel="stylesheet">
+		<link href="content/styles.css" rel="stylesheet" />
+		
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="bower_components/toastr/toastr.js"></script>
+		<script src="bower_components/moment/moment.js"></script>
+		<script src="bower_components/extras.angular.plus/ngplus-overlay.js"></script>
+		
+		
+		<script src="Scripts/spa/layout/layout.module.js"></script>
+		<script src="Scripts/spa/avengers/avengers.module.js"></script>
+		<script src="Scripts/spa/core/core.module.js"></script>
+		<script src="Scripts/spa/core/config.js"></script>
+		
+		<script src="Scripts/spa/layout/layout.module.js"></script>		
+		<script src="Scripts/spa/layout/shell.js"></script>
+		
+		<script src="Scripts/spa/app.module.js"></script>
+		
+	</head>
+	<body>
+		<div>
+			<div data-ng-include="'Scripts/spa/layout/shell.html'"></div>
+			<div id="splash-page" data-ng-show="false">
+				<div class="page-splash">
+					<div class="page-splash-message">
+						Angular Modular Demo
+					</div>
+					<div class="progress progress-striped active page-progress-bar">
+						<div class="bar"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+	</body>
+</html>
