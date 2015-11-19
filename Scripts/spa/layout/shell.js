@@ -1,11 +1,6 @@
 (function() {
 	'use strict';
-	
-	// angular.module('myapp.layout')
-	// 	.controller('Shell', Shell);
-	// 
-	// Shell.$inject = ['$timeout', 'config'];
-	// 
+
 	angular
 	.module('myapp.layout')
 	.controller('Shell', Shell);
